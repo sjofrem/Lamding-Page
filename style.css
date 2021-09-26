@@ -57,14 +57,14 @@ a {
     
 }
 
-h1 {
+.intro-title {
     font-size: 48px;
     color: #f9faf8;
     margin: 0;
     
 }
 
-p {
+.intro-par {
     color: #f9faf8;
 }
 
@@ -82,6 +82,40 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 70px 120px;
     color: #e5e7eb;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 30px 0px;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+    border:5px solid rgb(106, 133, 252);
+    border-radius: 12px;
 }
